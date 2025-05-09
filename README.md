@@ -68,7 +68,23 @@ def _get_obs(self):
         ]
     ).ravel()
 ````
+Namely,
 
+$$
+
+o_1 = x,
+o_2 = \sin(\theta_1),
+o_3 = \sin(\theta_2),
+o_4 = \sin(\theta_3),
+o_5 = \cos(\theta_1),
+o_6 = \cos(\theta_2),
+o_7 = \cos(\theta_3),
+o_8 = clip(v, -10, 10),
+o_9 = clip(\omega_1, -10\pi, 10\pi),
+o_{10} = clip(\omega_2, -10\pi, 10\pi),
+o_{11} = clip(\omega_3, -10\pi, 10\pi),
+
+$$
 
 ## Rewards[^3]
 
