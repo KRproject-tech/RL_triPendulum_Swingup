@@ -2,6 +2,13 @@
 
 ![License](https://img.shields.io/github/license/yuki-koyama/elasty)
 
+**Communication**
+
+<a style="text-decoration: none" href="https://twitter.com/hogelungfish" target="_blank">
+    <img src="https://img.shields.io/badge/twitter-%40hogelungfish-1da1f2.svg" alt="Twitter">
+</a>
+<p>
+
 Reinforced learning for the swing-up problem of the tri-pendulum.
 
 SAC (Soft-Actor Critic)[^1] is employed as the RL algorithm (Stable Baselines3 [^2]).
@@ -10,12 +17,7 @@ Reinforcement learning (RL) is conducted on the MuJoCo environment.
 ![rl-video-episode-10000](https://github.com/user-attachments/assets/33ba400b-c4fd-4b84-9645-57075a8a7324)
 
 
-**Communication**
 
-<a style="text-decoration: none" href="https://twitter.com/hogelungfish" target="_blank">
-    <img src="https://img.shields.io/badge/twitter-%40hogelungfish-1da1f2.svg" alt="Twitter">
-</a>
-<p>
 
 ## Preparation before analysis
 
