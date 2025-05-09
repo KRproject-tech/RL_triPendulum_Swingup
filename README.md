@@ -21,4 +21,6 @@ matplotlib=3.9.2
 
 numpy=1.26.0
 
+scipy=1.13.1
+
 tensorboard=2.18.0
