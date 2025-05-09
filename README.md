@@ -42,6 +42,21 @@ tensorboard=2.18.0
 PyTorch
 
 しらんけど
+
+````python
+conda create -n py311mujoco python=3.11
+conda activate py311mujoco
+conda install numpy=1.26.0
+
+# install PyTorch
+
+pip install stable-baselines3
+pip install gymnasium
+pip install mujoco
+
+# install others
+````
+
 </details>
 
 
