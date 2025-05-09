@@ -14,7 +14,11 @@ Reinforced learning for the swing-up problem of the tri-pendulum.
 Requierment:
 
 Stable Baselines3=2.3.2
+
 gymnasium=0.29.1
+
 matplotlib=3.9.2
+
 numpy=1.26.0
+
 tensorboard=2.18.0
