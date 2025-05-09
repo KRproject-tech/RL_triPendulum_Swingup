@@ -47,7 +47,11 @@ The dynamics of the pendulum are defined in the MJCF (MuJoCo Format) file named 
 
 ## actions
 
-Force to the moving base of the tri-pendulum along sliding direction from -2N to 2N.
+Force to the moving base of the tri-pendulum along sliding direction from -2N to 2N, namely;
+
+$$
+a := f_x.
+$$
 
 ## observations
 
