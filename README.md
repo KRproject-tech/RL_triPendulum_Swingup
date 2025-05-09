@@ -138,7 +138,17 @@ r =  J_xpos*J_theta1*J_theta2*J_theta3*np.amin([ J_omega1, J_omega2, J_omega3 ])
 Namely, 
 
 $$
-r := J_x \cdot J_{\theta_1} \cdot J_{\theta_2} \cdot J_{\theta_3} \min \\{ J_{\omega_1}, J_{\omega_2}, J_{\omega_3} \\}.
+r := J_x \cdot J_{\theta_1} \cdot J_{\theta_2} \cdot J_{\theta_3} \min \\{ J_{\omega_1}, J_{\omega_2}, J_{\omega_3} \\},
+$$
+
+where,
+
+$$
+J_x := \exp \left( -\left(\frac{x}{2}\right)^2 \right), \\\
+J_{\theta_1} := \frac{1 + \cos(\theta_1 - \pi)}{2}, \\\
+J_{\theta_2} := \frac{1 + \cos(\theta_2)}{2}, \\\
+J_{\theta_3} := \frac{1 + \cos(\theta_3)}{2}, \\\
+J_{\omega_1} := \exp \left( -5\left(\frac{\omega_1}{2\pi}\right)^2 \right), \\\
 $$
 
 
