@@ -25,6 +25,8 @@ numpy=1.26.0
 
 scipy=1.13.1
 
+mujoco=3.2.4
+
 tensorboard=2.18.0
 
 しらんけど
