@@ -46,11 +46,6 @@ Force to the moving base of the tri-pendulum along sliding direction from -2N to
 def _get_obs(self):
     return np.concatenate(
         [
-            # self.data.qpos[:1],             # cart x pos
-            # np.sin(self.data.qpos[1:]),     # link angles
-            # np.cos(self.data.qpos[1:]),
-            # np.clip(self.data.qvel, -10, 10),
-            # np.clip(self.data.qfrc_constraint, -10, 10),
             self.data.qpos[:1],                                     # cart x pos [m]
             np.sin( self.data.qpos[1:]),                            # link angles [rad]   
             np.cos( self.data.qpos[1:]),                            # link angles [rad]    
@@ -62,5 +57,21 @@ def _get_obs(self):
 
 
 ## Rewards
+
+````
+J_xpos = np.exp( -(x_pos/2.0)**2 )
+
+# theta1 = 0 -> below position
+J_theta1 = ( 1 + np.cos( theta1 - PI ) )/2.0
+J_theta2 = ( 1 + np.cos( theta2 ) )/2.0
+J_theta3 = ( 1 + np.cos( theta3 ) )/2.0
+
+J_omega1 = np.exp( -5.0*( omega1/(2*PI) )**2)
+J_omega2 = np.exp( -1.0*( omega2/(2*PI) )**2)
+J_omega3 = np.exp( -1.0*( omega3/(2*PI) )**2)
+
+r =  J_xpos*J_theta1*J_theta2*J_theta3*np.amin([ J_omega1, J_omega2, J_omega3 ])
+````
+
 
 編集中
