@@ -1,4 +1,7 @@
 # RL_triPendulum_Swingup
+
+![License](https://img.shields.io/github/license/yuki-koyama/elasty)
+
 Reinforced learning for the swing-up problem of the tri-pendulum.
 
 SAC (Soft-Actor Critic)[^1] is employed as the RL algorithm (Stable Baselines3 [^2]).
