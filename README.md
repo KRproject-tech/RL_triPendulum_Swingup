@@ -32,6 +32,8 @@ mujoco=3.2.4
 
 tensorboard=2.18.0
 
+PyTorch
+
 しらんけど
 
 ## Rewards
