@@ -143,13 +143,17 @@ $$
 
 where,
 
-$$
-J_x := \exp \left( -\left(\frac{x}{2}\right)^2 \right), \\\
-J_{\theta_1} := \frac{1 + \cos(\theta_1 - \pi)}{2}, \\\
-J_{\theta_2} := \frac{1 + \cos(\theta_2)}{2}, \\\
-J_{\theta_3} := \frac{1 + \cos(\theta_3)}{2}, \\\
-J_{\omega_1} := \exp \left( -5\left(\frac{\omega_1}{2\pi}\right)^2 \right), \\\
-$$
+```math
+\begin{eqnarray}
+J_x &:=& \exp \left( -\left(\frac{x}{2}\right)^2 \right), \\
+J_{\theta_1} &:=& \frac{1 + \cos(\theta_1 - \pi)}{2},\\
+J_{\theta_2} &:=& \frac{1 + \cos(\theta_2)}{2},\\
+J_{\theta_3} &:=& \frac{1 + \cos(\theta_3)}{2},\\
+J_{\omega_1} &:=& \exp \left( -5\left(\frac{\omega_1}{2\pi}\right)^2 \right),\\
+J_{\omega_2} &:=& \exp \left( -5\left(\frac{\omega_2}{2\pi}\right)^2 \right),\\
+J_{\omega_3} &:=& \exp \left( -5\left(\frac{\omega_3}{2\pi}\right)^2 \right).
+\end{eqnarray}
+```
 
 
 ### References  
