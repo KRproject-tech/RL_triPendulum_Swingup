@@ -55,6 +55,9 @@ pip install gymnasium
 pip install mujoco
 
 # install others
+
+cd RL_triPendulum_Swingup
+python exe.py
 ````
 
 </details>
