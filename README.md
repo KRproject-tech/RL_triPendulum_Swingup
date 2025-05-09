@@ -36,6 +36,16 @@ PyTorch
 
 しらんけど
 
+## actions
+
+Force along sliding direction from -2N to 2N.
+
+## observations
+
+theta1, theta2, theta3
+
+ omega1, omega2, omega3
+
 ## Rewards
 
 編集中
