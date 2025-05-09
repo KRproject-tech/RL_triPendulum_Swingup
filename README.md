@@ -135,8 +135,10 @@ J_omega3 = np.exp( -1.0*( omega3/(2*PI) )**2)
 r =  J_xpos*J_theta1*J_theta2*J_theta3*np.amin([ J_omega1, J_omega2, J_omega3 ])
 ````
 
-
-編集中
+Namely, 
+$$
+r := J_x \cdot J_{\theta_1} \cdot J_{\theta_2} \cdot J_{\theta_3} \min \\{ J_{\omega_1}, J_{\omega_2}, J_{\omega_3} \\}.
+$$
 
 
 ### References  
