@@ -1,5 +1,6 @@
 # RL_triPendulum_Swingup
 Reinforced learning for the swing-up problem of the tri-pendulum.
+
 SAC is employed as the RL algorithm (Stable Baselines3).
 RL is conducted on the MuJoCo environment. 
 
