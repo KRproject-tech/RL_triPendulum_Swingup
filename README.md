@@ -1,8 +1,8 @@
 # RL_triPendulum_Swingup
 Reinforced learning for the swing-up problem of the tri-pendulum.
 
-SAC is employed as the RL algorithm (Stable Baselines3).
-RL is conducted on the MuJoCo environment. 
+SAC (Soft-Actor Critic)[^1] is employed as the RL algorithm (Stable Baselines3 [^2]).
+Reinforcement learning (RL) is conducted on the MuJoCo environment. 
 
 ![rl-video-episode-10000](https://github.com/user-attachments/assets/33ba400b-c4fd-4b84-9645-57075a8a7324)
 
@@ -78,3 +78,9 @@ r =  J_xpos*J_theta1*J_theta2*J_theta3*np.amin([ J_omega1, J_omega2, J_omega3 ])
 
 
 編集中
+
+
+### References  
+
+[^1]: T. Haarnoja, A. Zhou, P. Abbeel, S. Levine, Soft actor-critic: Off-policy maximum entropy deep reinforcement learning with a stochastic actor, ArXiv abs/1801.01290 (2018).
+[^2]: A. Raffin, A. Hill, A. Gleave, A. Kanervisto, M. Ernestus, N. Dormann, Stable-baselines3: Reliable reinforcement learning implementations, Journal of Machine Learning Research 22 (268) (2021) 1–8.
