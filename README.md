@@ -1,6 +1,8 @@
 # RL_triPendulum_Swingup
 Reinforced learning for the swing-up problem of the tri-pendulum.
 
+![rl-video-episode-10000](https://github.com/user-attachments/assets/33ba400b-c4fd-4b84-9645-57075a8a7324)
+
 
 **Communication**
 
