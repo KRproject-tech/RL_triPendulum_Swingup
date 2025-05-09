@@ -36,6 +36,10 @@ PyTorch
 
 しらんけど
 
+## Definitions for the dynamics of perdulumn
+
+
+
 ## actions
 
 Force to the moving base of the tri-pendulum along sliding direction from -2N to 2N.
