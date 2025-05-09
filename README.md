@@ -42,9 +42,23 @@ Force to the moving base of the tri-pendulum along sliding direction from -2N to
 
 ## observations
 
-theta1, theta2, theta3
-
- omega1, omega2, omega3
+''''
+def _get_obs(self):
+    return np.concatenate(
+        [
+            # self.data.qpos[:1],             # cart x pos
+            # np.sin(self.data.qpos[1:]),     # link angles
+            # np.cos(self.data.qpos[1:]),
+            # np.clip(self.data.qvel, -10, 10),
+            # np.clip(self.data.qfrc_constraint, -10, 10),
+            self.data.qpos[:1],                                     # cart x pos [m]
+            np.sin( self.data.qpos[1:]),                            # link angles [rad]   
+            np.cos( self.data.qpos[1:]),                            # link angles [rad]    
+            np.clip( self.data.qvel[:1], -10, 10),                  # cart x pos vel [m/s]  
+            np.clip( self.data.qvel[1:], -10*np.pi, 10*np.pi),      # link angles vel [rad/s]      
+        ]
+    ).ravel()
+''''
 
 ## Rewards
 
