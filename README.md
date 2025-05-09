@@ -16,6 +16,8 @@ Reinforcement learning (RL) is conducted on the MuJoCo environment.
 
 ## Preparation before analysis
 
+<details><summary><b>Show instructions</b></summary>
+
 Requierment:
 
 Stable Baselines3=2.3.2
@@ -35,6 +37,9 @@ tensorboard=2.18.0
 PyTorch
 
 しらんけど
+</details>
+
+
 
 ## Definitions for the dynamics of the pendulum
 
