@@ -36,9 +36,9 @@ PyTorch
 
 しらんけど
 
-## Definitions for the dynamics of perdulumn
+## Definitions for the dynamics of the pendulum
 
-
+The dynamics of the pendulum are defined in the MJCF (MuJoCo Format) file named `inverted_tri_pendulum.xml`.
 
 ## actions
 
