@@ -42,7 +42,7 @@ Force to the moving base of the tri-pendulum along sliding direction from -2N to
 
 ## observations
 
-''''
+````
 def _get_obs(self):
     return np.concatenate(
         [
@@ -58,7 +58,8 @@ def _get_obs(self):
             np.clip( self.data.qvel[1:], -10*np.pi, 10*np.pi),      # link angles vel [rad/s]      
         ]
     ).ravel()
-''''
+````
+
 
 ## Rewards
 
