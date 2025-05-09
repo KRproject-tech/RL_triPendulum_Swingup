@@ -45,7 +45,7 @@ Force to the moving base of the tri-pendulum along sliding direction from -2N to
 Observations of the rotational angle between links should be limited to achieve fast convergence of reinforcement learning.
 Therefore, the following definition of observations is employed;
 
-````
+````python
 def _get_obs(self):
     return np.concatenate(
         [
@@ -61,7 +61,7 @@ def _get_obs(self):
 
 ## Rewards[^3]
 
-````
+````python
 J_xpos = np.exp( -(x_pos/2.0)**2 )
 
 # theta1 = 0 -> below position
