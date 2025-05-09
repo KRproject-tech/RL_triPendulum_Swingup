@@ -59,7 +59,7 @@ def _get_obs(self):
 ````
 
 
-## Rewards
+## Rewards[^3]
 
 ````
 J_xpos = np.exp( -(x_pos/2.0)**2 )
@@ -84,3 +84,4 @@ r =  J_xpos*J_theta1*J_theta2*J_theta3*np.amin([ J_omega1, J_omega2, J_omega3 ])
 
 [^1]: T. Haarnoja, A. Zhou, P. Abbeel, S. Levine, Soft actor-critic: Off-policy maximum entropy deep reinforcement learning with a stochastic actor, ArXiv abs/1801.01290 (2018).
 [^2]: A. Raffin, A. Hill, A. Gleave, A. Kanervisto, M. Ernestus, N. Dormann, Stable-baselines3: Reliable reinforcement learning implementations, Journal of Machine Learning Research 22 (268) (2021) 1–8.
+[^3]: Jongchan Baek, Changhyeon Lee, Young Sam Lee,∗, Soo Jeon, Soohee Han, Reinforcement learning to achieve real-time control of triple inverted pendulum, Engineering Applications of Artificial Intelligence, Vol. 128, 2024.
