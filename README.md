@@ -46,6 +46,8 @@ Force to the moving base of the tri-pendulum along sliding direction from -2N to
 
 ## observations
 
+Observations are defined in `inverted_tri_pendulum_swingup.py`.
+
 Observations of the rotational angle between links should be limited to achieve fast convergence of reinforcement learning.
 Therefore, the following definition of observations is employed;
 
@@ -64,6 +66,8 @@ def _get_obs(self):
 
 
 ## Rewards[^3]
+
+Rewards are defined in `inverted_tri_pendulum_swingup.py`.
 
 ````python
 J_xpos = np.exp( -(x_pos/2.0)**2 )
