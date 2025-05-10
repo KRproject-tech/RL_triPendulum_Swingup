@@ -11,8 +11,8 @@
 
 Reinforced learning for the swing-up problem of the tri-pendulum.
 
-SAC (Soft-Actor Critic)[^1] is employed as the RL algorithm (Stable Baselines3 [^2]).
-Reinforcement learning (RL) is conducted on the MuJoCo environment. 
+SAC (Soft-Actor Critic)[^1] is employed as the RL algorithm ([Stable Baselines3](https://stable-baselines3.readthedocs.io/en/master/) [^2]).
+Reinforcement learning (RL) is conducted on the [MuJoCo environment](https://mujoco.readthedocs.io/en/stable/overview.html). 
 
 ![rl-video-episode-10000](https://github.com/user-attachments/assets/33ba400b-c4fd-4b84-9645-57075a8a7324)
 
