@@ -27,6 +27,8 @@ Reinforcement learning (RL) is conducted on the [MuJoCo environment](https://muj
 
 Requirement:
 
+* __python=3.11__
+
 * For Reinforcement learning algorithm: __Stable Baselines3=2.3.2__
 
 * For simulation environment: __gymnasium=0.29.1__
