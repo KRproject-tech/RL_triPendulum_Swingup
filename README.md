@@ -69,6 +69,7 @@ python exe.py
 To confirm the learning process, the following command is used in the another terminal;
 
 ````
+cd RL_triPendulum_Swingup
 tensorboard --logdir logs/SAC_1
 ````
 
