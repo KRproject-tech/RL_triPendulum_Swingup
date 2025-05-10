@@ -232,6 +232,12 @@ J_{\omega_3} &:=& \exp \left( -\left(\frac{\omega_3}{2\pi}\right)^2 \right).
 \end{eqnarray}
 ```
 
+## Garallys
+
+<img width="1620" alt="image" src="https://github.com/user-attachments/assets/6140a730-db76-4bb8-84da-ccafa6e4d44c" />
+
+<img width="1593" alt="image" src="https://github.com/user-attachments/assets/cab653a3-5cab-40fd-9d96-5273f84f3e90" />
+
 
 ### References  
 
