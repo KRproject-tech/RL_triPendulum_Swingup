@@ -25,23 +25,23 @@ Reinforcement learning (RL) is conducted on the MuJoCo environment.
 
 Requirement:
 
-For Reinforcement learning algorithm: __Stable Baselines3=2.3.2__
+* For Reinforcement learning algorithm: __Stable Baselines3=2.3.2__
 
-For simulation environment: __gymnasium=0.29.1__
+* For simulation environment: __gymnasium=0.29.1__
 
-For plot: __matplotlib=3.9.2__
+* For plot: __matplotlib=3.9.2__
 
-For matrix calculation: __numpy=1.26.0__
+* For matrix calculation: __numpy=1.26.0__
 
-For the Matlab file (*.mat) generation: __scipy=1.13.1__
+* For the Matlab file (*.mat) generation: __scipy=1.13.1__
 
-For simulation environment: __mujoco=3.2.4__
+* For simulation environment: __mujoco=3.2.4__
 
-For data logging: __tensorboard=2.18.0__
+* For data logging: __tensorboard=2.18.0__
 
-For GPGPU: __PyTorch__
+* For GPGPU: __PyTorch__
 
-others
+* others
 
 ````python
 conda create -n py311mujoco python=3.11
