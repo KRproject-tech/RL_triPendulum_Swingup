@@ -1,6 +1,8 @@
 # RL_triPendulum_Swingup
 
 ![License](https://img.shields.io/github/license/yuki-koyama/elasty)
+<img src="https://img.shields.io/badge/-Python-F9DC3E.svg?logo=python&style=flat">
+
 
 **Communication**
 
