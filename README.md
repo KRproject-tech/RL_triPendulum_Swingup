@@ -66,6 +66,14 @@ python exe.py
 
 # wait until 5*1e+6 steps
 ````
+To confirm the learning process, the following command is used in the another terminal;
+
+````
+tensorboard --logdir logs/SAC_1
+````
+
+After that, we can confirm the learning process in the web browser at `http://localhost:6006/`.
+<img width="941" alt="image" src="https://github.com/user-attachments/assets/ce9bb3a0-f932-4cfb-bb5f-9be683aebe23" />
 
 </details>
 
