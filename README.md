@@ -60,6 +60,7 @@ pip install mujoco
 
 # install others
 
+git clone https://github.com/KRproject-tech/RL_triPendulum_Swingup
 cd RL_triPendulum_Swingup
 python exe.py
 ````
