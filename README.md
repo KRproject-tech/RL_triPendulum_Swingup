@@ -63,6 +63,8 @@ pip install mujoco
 git clone https://github.com/KRproject-tech/RL_triPendulum_Swingup
 cd RL_triPendulum_Swingup
 python exe.py
+
+# wait until 5*1e+6 steps
 ````
 
 </details>
