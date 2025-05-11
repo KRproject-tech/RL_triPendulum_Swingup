@@ -78,7 +78,7 @@ After that, we can confirm the learning process in the web browser at `http://lo
 <img width="941" alt="image" src="https://github.com/user-attachments/assets/ce9bb3a0-f932-4cfb-bb5f-9be683aebe23" />
 
 The convergence of reinforcement learning depends on the initial value.
-Therefore, some trials of reinforcement learning may be necessary to achieve the inverted situation.
+Therefore, __some trials of reinforcement learning may be necessary to achieve the inverted situation.__
 
 </details>
 
