@@ -47,7 +47,7 @@ Requirement:
 
 * others
 
-````python
+```batch
 conda create -n py311mujoco python=3.11
 conda activate py311mujoco
 conda install numpy=1.26.0
@@ -57,6 +57,7 @@ conda install numpy=1.26.0
 pip install stable-baselines3
 pip install gymnasium
 pip install mujoco
+pip install tensorboard
 
 # install others
 
@@ -65,13 +66,13 @@ cd RL_triPendulum_Swingup
 python exe.py
 
 # wait until 5*1e+6 steps
-````
+```
 To confirm the learning process, the following command is used in the another terminal;
 
-````
+```batch
 cd RL_triPendulum_Swingup
 tensorboard --logdir logs/SAC_1
-````
+```
 
 After that, we can confirm the learning process in the web browser at `http://localhost:6006/`.
 
